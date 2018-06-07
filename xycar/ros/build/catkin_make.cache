@@ -1,0 +1,2 @@
+racecar/ackermann_cmd_mux:racecar/racecar:razor_imu_9dof:rplidar_ros:slam_gmapping/gmapping:slam_gmapping/slam_gmapping:usb_cam:vesc/vesc:vesc/vesc_ackermann:vesc/vesc_driver:vesc/vesc_msgs:zed_wrapper
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/xycar/ros/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/xycar/ros/install -G Unix Makefiles

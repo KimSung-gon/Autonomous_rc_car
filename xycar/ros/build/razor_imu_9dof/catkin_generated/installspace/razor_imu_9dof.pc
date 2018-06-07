@@ -1,0 +1,8 @@
+prefix=/home/nvidia/xycar/ros/install
+
+Name: razor_imu_9dof
+Description: Description of razor_imu_9dof
+Version: 1.2.0
+Cflags: -I/home/nvidia/xycar/ros/install/include
+Libs: -L/home/nvidia/xycar/ros/install/lib 
+Requires: dynamic_reconfigure

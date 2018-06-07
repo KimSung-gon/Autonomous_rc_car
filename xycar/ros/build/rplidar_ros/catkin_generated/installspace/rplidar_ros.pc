@@ -1,0 +1,8 @@
+prefix=/home/nvidia/xycar/ros/install
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.5.7
+Cflags: 
+Libs: -L/home/nvidia/xycar/ros/install/lib 
+Requires: 

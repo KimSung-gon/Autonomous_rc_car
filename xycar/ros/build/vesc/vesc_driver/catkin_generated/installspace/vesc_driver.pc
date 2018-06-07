@@ -1,0 +1,8 @@
+prefix=/home/nvidia/xycar/ros/install
+
+Name: vesc_driver
+Description: Description of vesc_driver
+Version: 0.0.1
+Cflags: -I/home/nvidia/xycar/ros/install/include
+Libs: -L/home/nvidia/xycar/ros/install/lib 
+Requires: nodelet pluginlib roscpp std_msgs vesc_msgs serial

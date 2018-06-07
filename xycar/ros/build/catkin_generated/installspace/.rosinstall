@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nvidia/xycar/ros/install/setup.sh
