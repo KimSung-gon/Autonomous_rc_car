@@ -78,12 +78,12 @@ def pid_control(x_current, setpoint=318):
     twiddle(x_current)
 
     error = setpoint - x_current
-    p = round(p[0] * error, 9)
+    p1 = round(p[0] * error, 9)
     error_sum += error
-    i = round(p[1] * error_sum, 9)
-    d = round(p[2] * (error -  error_old), 9)
+    i1 = round(p[1] * error_sum, 9)
+    d1 = round(p[2] * (error -  error_old), 9)
     error_old = error
-    pid = p + i + d    
+    pid = p1 + i1 + d1    
     #print("p : " ,p)
     #print("i : " ,i)
     #print("d : " ,d)
